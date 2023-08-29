@@ -1,0 +1,23 @@
+.body{
+    background-color: rgb(169,169,169)
+}
+
+#title-name{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    color:black;
+    background-color: rgb(169,169,169);
+    margin: 0em 2em 0em 0em
+    
+    
+}
+
+#nameTitle{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    
+
+    justify-content: center;
+}
