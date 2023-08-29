@@ -1,4 +1,4 @@
-// aqui estão as referencias do html
+⁸// aqui estão as referencias do html
 
 const songName = document.getElementById("song-name");
 const song = document.getElementById("audio");
@@ -192,8 +192,9 @@ const playList = [novoBalanco, enganaDizendo, bolsaDeOmbro, horaErrada, anoQueVe
 osBicosTaoSePerguntando, vulgoFK, astronautaAstro, elemento, jamaisMeApaguei, linhaDoTempo, bichoSolto, novidadeNaArea, cheirosoEArtista, escorpiana, pecaRara, pontoG,
 primeiraClasse, pocoto, umFioDeCabelo] ?? JSON.parse(localStorage.getItem('playlist'));
 
-//const playList = [novoBalanco, enganaDizendo, bolsaDeOmbro, horaErrada, anoQueVem, giroLoucoPh, malokeragem, umBeijoNaMinhaNega,
-//  osBicosTaoSePerguntando, vulgoFK]; // isso é um array [] é uma estrutura de dados que armazena uma coleção de elementos,cada um dos elementos possa ser identificado por, um índice ou uma chave
+/* isso é um array [] é uma estrutura de dados que armazena uma coleção de elementos,cada um dos elementos possa ser identificado por, um índice ou uma chave
+*/
+
 let sortedPlaylist = [...playList]; // '...' sinal de espalhar 
 playList[0];
 
